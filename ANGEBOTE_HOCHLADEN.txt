@@ -1,0 +1,8 @@
+1. Lade offers.json in das Stammverzeichnis deines GitHub-Repositories wochenplan hoch.
+2. Ersetze die dort vorhandene offers.json.
+3. Commit changes.
+4. Starte unter Actions den Workflow „Deploy meal plan app without API“.
+5. Öffne danach die App und tippe oben auf ↻.
+
+Wichtig: Die Summen enthalten nur Artikel, für die ein aktueller Preis mit Quelle gefunden wurde.
+Nicht gefundene Artikel erscheinen in der App ausdrücklich als fehlend.
