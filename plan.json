@@ -1,0 +1,265 @@
+{
+  "appTitle": "Stefanos Wochenplan",
+  "weekLabel": "Herzfreundlicher mediterraner Wochenplan",
+  "updated": "2026-08-03",
+  "target": {
+    "calories": "ca. 2.000–2.100 kcal/Tag",
+    "eggs": "max. 2 ganze Eier/Woche",
+    "fish": "2 Fischmahlzeiten/Woche",
+    "focus": "Hafer, Vollkorn, Hülsenfrüchte, Gemüse und ungesättigte Fette"
+  },
+  "days": [
+    {
+      "day": "Montag",
+      "calories": "ca. 2.000 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse."
+        },
+        {
+          "name": "Mittag",
+          "text": "160 g Hähnchen, 70 g Naturreis, 300 g gegartes Ofengemüse, 7 g Olivenöl und Joghurt-Zitronen-Dip."
+        },
+        {
+          "name": "Snack",
+          "text": "1 Apfel und 150 g Skyr."
+        },
+        {
+          "name": "Abend",
+          "text": "Vollkorn-Piadina oder Wrap mit 50 g Hummus, 60 g Mozzarella light, Tomaten, Rucola und Ofengemüse."
+        }
+      ]
+    },
+    {
+      "day": "Dienstag",
+      "calories": "ca. 2.050 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "70 g Vollkornbrot, 40 g Hummus, Tomaten, Gurke, 150 g Skyr und 1 Portion Obst."
+        },
+        {
+          "name": "Mittag",
+          "text": "75 g Vollkornnudeln, 1 Dose Thunfisch im eigenen Saft, Tomaten, Rucola, 20 g Oliven und 7 g Olivenöl."
+        },
+        {
+          "name": "Snack",
+          "text": "250 g Skyr und 1 kleine Banane."
+        },
+        {
+          "name": "Abend",
+          "text": "180 g Lachs, 300 g Kartoffeln, 300 g Brokkoli und 5 g Olivenöl."
+        }
+      ]
+    },
+    {
+      "day": "Mittwoch",
+      "calories": "ca. 2.000 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "Overnight Oats aus 300 g Skyr, 50 g Haferflocken, 150 g Beeren und etwas Wasser oder ungesüßter Milch."
+        },
+        {
+          "name": "Mittag",
+          "text": "Zweite Pollo-Riso-Bowl vom Montag."
+        },
+        {
+          "name": "Snack",
+          "text": "1 Apfel oder Birne und 15 g Mandeln."
+        },
+        {
+          "name": "Abend",
+          "text": "75 g Vollkornnudeln, 250 g passierte Tomaten, 200 g fettarmer körniger Frischkäse, 150 g Spinat und 5 g Parmesan."
+        }
+      ]
+    },
+    {
+      "day": "Donnerstag",
+      "calories": "ca. 2.050 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "300 g Skyr, 50 g Haferflocken, 1 kleine Banane und 10 g Walnüsse."
+        },
+        {
+          "name": "Mittag",
+          "text": "65 g Vollkorn-Couscous, 150 g Kichererbsen, 40 g fettarmer Feta, Gurke, Tomaten, Petersilie und 5 g Olivenöl."
+        },
+        {
+          "name": "Snack",
+          "text": "1 Portion Obst und 150 g fettarmer Naturjoghurt oder Skyr."
+        },
+        {
+          "name": "Abend",
+          "text": "Bohnensuppe aus 250 g weißen Bohnen, 250 g passierten Tomaten, Gemüse, 80 g Vollkornbrot und 5 g Olivenöl."
+        }
+      ]
+    },
+    {
+      "day": "Freitag",
+      "calories": "ca. 2.050 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "80 g Vollkornbrot, 200 g fettarmer körniger Frischkäse, Tomaten, Gurke, 1 Portion Obst und 10 g Nüsse."
+        },
+        {
+          "name": "Mittag",
+          "text": "65 g Naturreis, 200 g Linsen, 300 g gegartes Gemüse, 5 g Olivenöl, Zitrone und Kräuter."
+        },
+        {
+          "name": "Snack",
+          "text": "250 g Skyr und 150 g Beeren."
+        },
+        {
+          "name": "Abend",
+          "text": "200 g Kabeljau oder Seelachs, 300 g Kartoffeln, 250 g grüne Bohnen, Joghurt-Dip und 60 g Vollkornbrot."
+        }
+      ]
+    },
+    {
+      "day": "Samstag",
+      "calories": "ca. 2.050 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "80 g Vollkornbrot, 30 g Erdnussmus, 1 kleine Banane und 150 g Skyr."
+        },
+        {
+          "name": "Mittag",
+          "text": "Kartoffelsalat aus 300 g Kartoffeln, 1 Ei, 100 g Cannellini-Bohnen, 200 g grünen Bohnen, Tomaten und 7 g Olivenöl."
+        },
+        {
+          "name": "Snack",
+          "text": "200 g Skyr und 1 Portion Obst."
+        },
+        {
+          "name": "Abend",
+          "text": "160 g Kichererbsen, 300–400 g Ofengemüse, 60 g Vollkorn-Couscous, 7 g Olivenöl und 15 g Tahin-Zitronen-Soße."
+        }
+      ]
+    },
+    {
+      "day": "Sonntag",
+      "calories": "ca. 2.050 kcal",
+      "meals": [
+        {
+          "name": "Frühstück",
+          "text": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse."
+        },
+        {
+          "name": "Mittag",
+          "text": "Pasta e ceci: 75 g Vollkornnudeln, 160 g Kichererbsen, 250 g passierte Tomaten, Spinat, Rosmarin, 5 g Parmesan und 5 g Olivenöl."
+        },
+        {
+          "name": "Snack",
+          "text": "1 Portion Obst und 15 g Mandeln."
+        },
+        {
+          "name": "Abend",
+          "text": "Gemüsepfanne mit 1 Ei, 200 g fettarmem körnigem Frischkäse, 100 g weißen Bohnen, 80 g Vollkornbrot und 5 g Olivenöl."
+        }
+      ]
+    }
+  ],
+  "mealPrep": [
+    {
+      "title": "Sonntag · etwa 60 Minuten",
+      "steps": [
+        "320–350 g Hähnchen für zwei Portionen garen.",
+        "140 g Naturreis für Montag und Mittwoch kochen.",
+        "Etwa 1,5 kg rohes Gemüse auf einem großen Blech rösten.",
+        "Drei Skyr- oder Overnight-Oats-Gläser vorbereiten.",
+        "Joghurt-Zitronen-Dip anrühren.",
+        "Hülsenfrüchte abspülen und portionsweise lagern."
+      ]
+    },
+    {
+      "title": "Mittwoch · etwa 20 Minuten",
+      "steps": [
+        "Kartoffeln für Freitag und Samstag vorkochen.",
+        "Linsen-Reis-Bowl vorbereiten.",
+        "Skyr-Gläser für die zweite Wochenhälfte füllen.",
+        "Frischen Salat und Rucola nachkaufen."
+      ]
+    }
+  ],
+  "shopping": [
+    {
+      "category": "Milchprodukte & Eier",
+      "items": [
+        "2,5–3 kg Skyr, möglichst 0,2 % Fett",
+        "500 g fettarmer Naturjoghurt",
+        "600 g fettarmer körniger Frischkäse",
+        "1 kleine Packung Mozzarella light",
+        "1 kleine Packung fettarmer Feta",
+        "1 kleine Packung Parmesan",
+        "2 Eier beziehungsweise kleinste Packung"
+      ]
+    },
+    {
+      "category": "Fleisch & Fisch",
+      "items": [
+        "320–350 g Hähnchenbrust",
+        "180–200 g Lachs",
+        "200 g Kabeljau oder Seelachs",
+        "1 Dose Thunfisch im eigenen Saft"
+      ]
+    },
+    {
+      "category": "Hülsenfrüchte",
+      "items": [
+        "3 Dosen Kichererbsen",
+        "2 Dosen weiße Bohnen oder Cannellini",
+        "1 Dose Linsen",
+        "1 Becher Hummus"
+      ]
+    },
+    {
+      "category": "Getreide, Brot & Kartoffeln",
+      "items": [
+        "500 g Haferflocken",
+        "500 g Vollkornnudeln",
+        "500 g Natur- oder Vollkornreis",
+        "250 g Vollkorn-Couscous",
+        "750 g Vollkornbrot",
+        "1 Packung Vollkorn-Wraps oder Piadine",
+        "1,5 kg Kartoffeln"
+      ]
+    },
+    {
+      "category": "Gemüse & Kräuter",
+      "items": [
+        "2 kg Tomaten und Cherrytomaten",
+        "5 Zucchini",
+        "5 Paprika",
+        "2 Gurken",
+        "500 g Brokkoli",
+        "750 g grüne Bohnen",
+        "750 g Spinat",
+        "3 Packungen Rucola oder Salat",
+        "4 Karotten",
+        "4 Zitronen",
+        "Petersilie, Basilikum und Rosmarin"
+      ]
+    },
+    {
+      "category": "Obst & Vorrat",
+      "items": [
+        "4 Bananen",
+        "5 Äpfel oder Birnen",
+        "2 weitere saisonale Früchte",
+        "1 kg tiefgekühlte Beeren",
+        "Olivenöl",
+        "200 g Walnüsse oder Mandeln",
+        "Erdnussmus aus 100 % Erdnüssen",
+        "Tahin",
+        "Oliven",
+        "4 Packungen passierte Tomaten",
+        "Senf, Essig und Gewürze"
+      ]
+    }
+  ]
+}

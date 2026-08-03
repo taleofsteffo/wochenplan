@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#233729">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Wochenplan">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Stefanos Wochenplan</title>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">MEDITERRAN · HERZFREUNDLICH</p>
+      <h1 id="appTitle">Wochenplan</h1>
+      <p id="weekLabel" class="subtitle"></p>
+    </div>
+    <button id="refreshButton" class="icon-button" aria-label="Plan aktualisieren">↻</button>
+  </header>
+
+  <main>
+    <section id="installHint" class="install-hint hidden">
+      <strong>Als App installieren</strong>
+      <span>In Safari: Teilen → „Zum Home-Bildschirm“ → „Als Web-App öffnen“.</span>
+      <button id="closeInstallHint" type="button">OK</button>
+    </section>
+
+    <section id="summary" class="summary"></section>
+
+    <nav class="tabs" aria-label="Bereiche">
+      <button class="tab active" data-target="planView">Plan</button>
+      <button class="tab" data-target="shoppingView">Einkauf</button>
+      <button class="tab" data-target="prepView">Meal-Prep</button>
+      <button class="tab" data-target="notesView">Notizen</button>
+    </nav>
+
+    <section id="planView" class="view active">
+      <div id="days" class="days"></div>
+    </section>
+
+    <section id="shoppingView" class="view">
+      <div class="section-bar">
+        <div>
+          <h2>Einkaufsliste</h2>
+          <p>Häkchen bleiben auf diesem Gerät gespeichert.</p>
+        </div>
+        <button id="resetShopping" class="secondary">Zurücksetzen</button>
+      </div>
+      <div id="shopping" class="shopping-grid"></div>
+    </section>
+
+    <section id="prepView" class="view">
+      <div class="section-bar"><div><h2>Meal-Prep</h2><p>Wenig tägliche Küchenzeit, mehr Leben.</p></div></div>
+      <div id="prep" class="prep-grid"></div>
+    </section>
+
+    <section id="notesView" class="view">
+      <div class="section-bar"><div><h2>Notizen</h2><p>Vorlieben, Änderungen oder Gewichtsentwicklung.</p></div></div>
+      <textarea id="notes" placeholder="Notizen werden lokal gespeichert …"></textarea>
+    </section>
+
+    <section class="medical-note">
+      <strong>Hinweis:</strong> Der Plan ersetzt keine ärztliche Beratung. Bei deiner familiären Vorbelastung und grenzwertigen Cholesterinwerten Blutwerte und Blutdruck regelmäßig ärztlich kontrollieren lassen.
+    </section>
+  </main>
+
+  <footer>
+    <span id="updated"></span>
+    <button onclick="window.print()">Drucken / PDF</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
