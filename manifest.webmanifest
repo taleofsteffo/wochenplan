@@ -1,13 +1,13 @@
 {
-  "name": "Stefanos mediterraner Wochenplan",
-  "short_name": "Wochenplan",
-  "description": "Herzfreundlicher mediterraner Ernährungsplan mit Einkaufsliste und Meal-Prep.",
+  "name": "Mediterranean Weekly Plan",
+  "short_name": "Meal Plan",
+  "description": "A multilingual Mediterranean weekly meal plan with shopping list and meal prep.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f0e7",
   "theme_color": "#233729",
-  "lang": "de",
+  "lang": "en",
   "icons": [
     {
       "src": "icons/icon-192.png",

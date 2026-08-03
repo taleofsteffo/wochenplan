@@ -6,74 +6,74 @@
   <meta name="theme-color" content="#233729">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Wochenplan">
+  <meta name="apple-mobile-web-app-title" content="Meal Plan">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" href="icons/icon-192.png">
   <link rel="stylesheet" href="styles.css">
-  <title>Stefanos Wochenplan</title>
+  <title>Mediterranean Weekly Plan</title>
 </head>
 <body>
   <header class="hero">
-    <div>
-      <p class="eyebrow">MEDITERRAN · HERZFREUNDLICH</p>
-      <h1 id="appTitle">Wochenplan</h1>
+    <div class="hero-copy">
+      <p class="eyebrow">MEDITERRANEAN · HEART-FRIENDLY</p>
+      <h1 id="appTitle">Weekly Plan</h1>
       <p id="weekLabel" class="subtitle"></p>
+      <p id="intro" class="intro"></p>
     </div>
-    <button id="refreshButton" class="icon-button" aria-label="Plan aktualisieren">↻</button>
+    <div class="hero-actions">
+      <label class="language-label" for="languageSelect" id="languageLabel">Language</label>
+      <select id="languageSelect" class="language-select" aria-label="Language">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+        <option value="it">Italiano</option>
+      </select>
+      <button id="refreshButton" class="icon-button" aria-label="Refresh plan">↻</button>
+    </div>
   </header>
 
   <main>
     <section id="installHint" class="install-hint hidden">
-      <strong>Als App installieren</strong>
-      <span>In Safari: Teilen → „Zum Home-Bildschirm“ → „Als Web-App öffnen“.</span>
+      <div>
+        <strong id="installTitle"></strong>
+        <span id="installText"></span>
+      </div>
       <button id="closeInstallHint" type="button">OK</button>
     </section>
 
     <section id="summary" class="summary"></section>
 
-    <nav class="tabs" aria-label="Bereiche">
-      <button class="tab active" data-target="planView">Plan</button>
-      <button class="tab" data-target="shoppingView">Einkauf</button>
-      <button class="tab" data-target="prepView">Meal-Prep</button>
-      <button class="tab" data-target="notesView">Notizen</button>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab active" data-target="planView" id="tabPlan"></button>
+      <button class="tab" data-target="shoppingView" id="tabShopping"></button>
+      <button class="tab" data-target="prepView" id="tabPrep"></button>
+      <button class="tab" data-target="notesView" id="tabNotes"></button>
     </nav>
 
-    <section id="planView" class="view active">
-      <div id="days" class="days"></div>
-    </section>
+    <section id="planView" class="view active"><div id="days" class="days"></div></section>
 
     <section id="shoppingView" class="view">
       <div class="section-bar">
-        <div>
-          <h2>Einkaufsliste</h2>
-          <p>Häkchen bleiben auf diesem Gerät gespeichert.</p>
-        </div>
-        <button id="resetShopping" class="secondary">Zurücksetzen</button>
+        <div><h2 id="shoppingTitle"></h2><p id="shoppingSubtitle"></p></div>
+        <button id="resetShopping" class="secondary"></button>
       </div>
       <div id="shopping" class="shopping-grid"></div>
     </section>
 
     <section id="prepView" class="view">
-      <div class="section-bar"><div><h2>Meal-Prep</h2><p>Wenig tägliche Küchenzeit, mehr Leben.</p></div></div>
+      <div class="section-bar"><div><h2 id="prepTitle"></h2><p id="prepSubtitle"></p></div></div>
       <div id="prep" class="prep-grid"></div>
     </section>
 
     <section id="notesView" class="view">
-      <div class="section-bar"><div><h2>Notizen</h2><p>Vorlieben, Änderungen oder Gewichtsentwicklung.</p></div></div>
-      <textarea id="notes" placeholder="Notizen werden lokal gespeichert …"></textarea>
+      <div class="section-bar"><div><h2 id="notesTitle"></h2><p id="notesSubtitle"></p></div></div>
+      <textarea id="notes"></textarea>
     </section>
 
-    <section class="medical-note">
-      <strong>Hinweis:</strong> Der Plan ersetzt keine ärztliche Beratung. Bei deiner familiären Vorbelastung und grenzwertigen Cholesterinwerten Blutwerte und Blutdruck regelmäßig ärztlich kontrollieren lassen.
-    </section>
+    <section class="medical-note"><strong id="medicalPrefix"></strong><span id="medicalText"></span></section>
   </main>
 
-  <footer>
-    <span id="updated"></span>
-    <button onclick="window.print()">Drucken / PDF</button>
-  </footer>
-
+  <footer><span id="updated"></span><button id="printButton" onclick="window.print()"></button></footer>
   <script src="app.js"></script>
 </body>
 </html>

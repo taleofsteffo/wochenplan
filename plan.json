@@ -1,265 +1,1151 @@
 {
-  "appTitle": "Stefanos Wochenplan",
-  "weekLabel": "Herzfreundlicher mediterraner Wochenplan",
+  "version": 2,
   "updated": "2026-08-03",
-  "target": {
-    "calories": "ca. 2.000–2.100 kcal/Tag",
-    "eggs": "max. 2 ganze Eier/Woche",
-    "fish": "2 Fischmahlzeiten/Woche",
-    "focus": "Hafer, Vollkorn, Hülsenfrüchte, Gemüse und ungesättigte Fette"
+  "week": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
   },
+  "appTitle": {
+    "de": "Mediterraner Wochenplan",
+    "en": "Mediterranean Weekly Plan",
+    "it": "Piano settimanale mediterraneo"
+  },
+  "weekLabel": {
+    "de": "Herzfreundlich · 3.–9. August 2026",
+    "en": "Heart-friendly · 3–9 August 2026",
+    "it": "Amico del cuore · 3–9 agosto 2026"
+  },
+  "intro": {
+    "de": "Für eine Person, etwa 2.000–2.100 kcal pro Tag. Die Portionsgrößen und gesundheitlichen Schwerpunkte basieren auf Stefanos aktuellem Plan.",
+    "en": "For one person, about 2,000–2,100 kcal per day. Portions and health priorities are based on Stefano’s current plan.",
+    "it": "Per una persona, circa 2.000–2.100 kcal al giorno. Le porzioni e le priorità salutari si basano sul piano attuale di Stefano."
+  },
+  "targets": [
+    {
+      "id": "calories",
+      "value": {
+        "de": "ca. 2.000–2.100 kcal/Tag",
+        "en": "about 2,000–2,100 kcal/day",
+        "it": "circa 2.000–2.100 kcal/giorno"
+      },
+      "label": {
+        "de": "Kalorien",
+        "en": "Calories",
+        "it": "Calorie"
+      }
+    },
+    {
+      "id": "eggs",
+      "value": {
+        "de": "max. 2 ganze Eier/Woche",
+        "en": "max. 2 whole eggs/week",
+        "it": "max. 2 uova intere/settimana"
+      },
+      "label": {
+        "de": "Eier",
+        "en": "Eggs",
+        "it": "Uova"
+      }
+    },
+    {
+      "id": "fish",
+      "value": {
+        "de": "2–3 Fischmahlzeiten/Woche",
+        "en": "2–3 fish meals/week",
+        "it": "2–3 pasti di pesce/settimana"
+      },
+      "label": {
+        "de": "Fisch",
+        "en": "Fish",
+        "it": "Pesce"
+      }
+    },
+    {
+      "id": "focus",
+      "value": {
+        "de": "Hafer, Vollkorn, Hülsenfrüchte und Gemüse",
+        "en": "Oats, whole grains, legumes and vegetables",
+        "it": "Avena, cereali integrali, legumi e verdure"
+      },
+      "label": {
+        "de": "Schwerpunkt",
+        "en": "Focus",
+        "it": "Priorità"
+      }
+    }
+  ],
   "days": [
     {
-      "day": "Montag",
-      "calories": "ca. 2.000 kcal",
+      "id": "monday",
+      "label": {
+        "de": "Montag",
+        "en": "Monday",
+        "it": "Lunedì"
+      },
+      "calories": {
+        "de": "ca. 2.000 kcal",
+        "en": "about 2,000 kcal",
+        "it": "circa 2.000 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse.",
+            "en": "300 g skyr, 50 g oats, 150 g berries and 15 g walnuts.",
+            "it": "300 g di skyr, 50 g di fiocchi d’avena, 150 g di frutti di bosco e 15 g di noci."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "160 g Hähnchen, 70 g Naturreis, 300 g gegartes Ofengemüse, 7 g Olivenöl und Joghurt-Zitronen-Dip."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "160 g Hähnchen, 70 g Naturreis (ungekocht), 300 g gegartes Ofengemüse, 7 g Olivenöl und Joghurt-Zitronen-Dip.",
+            "en": "160 g chicken, 70 g brown rice (dry), 300 g cooked roasted vegetables, 7 g olive oil and a yoghurt-lemon dip.",
+            "it": "160 g di pollo, 70 g di riso integrale (peso a crudo), 300 g di verdure al forno cotte, 7 g di olio d’oliva e salsa allo yogurt e limone."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "1 Apfel und 150 g Skyr."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "1 Apfel und 150 g Skyr.",
+            "en": "1 apple and 150 g skyr.",
+            "it": "1 mela e 150 g di skyr."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "Vollkorn-Piadina oder Wrap mit 50 g Hummus, 60 g Mozzarella light, Tomaten, Rucola und Ofengemüse."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "Vollkorn-Piadina oder Wrap mit 50 g Hummus, 60 g Mozzarella light, Tomaten, Rucola und Ofengemüse.",
+            "en": "Whole-grain piadina or wrap with 50 g hummus, 60 g light mozzarella, tomatoes, rocket and roasted vegetables.",
+            "it": "Piadina integrale o wrap con 50 g di hummus, 60 g di mozzarella light, pomodori, rucola e verdure al forno."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Dienstag",
-      "calories": "ca. 2.050 kcal",
+      "id": "tuesday",
+      "label": {
+        "de": "Dienstag",
+        "en": "Tuesday",
+        "it": "Martedì"
+      },
+      "calories": {
+        "de": "ca. 2.050 kcal",
+        "en": "about 2,050 kcal",
+        "it": "circa 2.050 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "70 g Vollkornbrot, 40 g Hummus, Tomaten, Gurke, 150 g Skyr und 1 Portion Obst."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "70 g Vollkornbrot, 40 g Hummus, Tomaten, Gurke, 150 g Skyr und 1 Portion Obst.",
+            "en": "70 g whole-grain bread, 40 g hummus, tomatoes, cucumber, 150 g skyr and one portion of fruit.",
+            "it": "70 g di pane integrale, 40 g di hummus, pomodori, cetriolo, 150 g di skyr e una porzione di frutta."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "75 g Vollkornnudeln, 1 Dose Thunfisch im eigenen Saft, Tomaten, Rucola, 20 g Oliven und 7 g Olivenöl."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "75 g Vollkornnudeln (ungekocht), 1 Dose Thunfisch im eigenen Saft, Tomaten, Rucola, 20 g Oliven und 7 g Olivenöl.",
+            "en": "75 g whole-grain pasta (dry), 1 tin of tuna in spring water, tomatoes, rocket, 20 g olives and 7 g olive oil.",
+            "it": "75 g di pasta integrale (peso a crudo), 1 scatoletta di tonno al naturale, pomodori, rucola, 20 g di olive e 7 g di olio d’oliva."
+          },
+          "wholeEggs": 0,
+          "fish": true,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "250 g Skyr und 1 kleine Banane."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "250 g Skyr und 1 kleine Banane.",
+            "en": "250 g skyr and 1 small banana.",
+            "it": "250 g di skyr e 1 banana piccola."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "180 g Lachs, 300 g Kartoffeln, 300 g Brokkoli und 5 g Olivenöl."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "180 g Lachs, 300 g Kartoffeln, 300 g Brokkoli und 5 g Olivenöl.",
+            "en": "180 g salmon, 300 g potatoes, 300 g broccoli and 5 g olive oil.",
+            "it": "180 g di salmone, 300 g di patate, 300 g di broccoli e 5 g di olio d’oliva."
+          },
+          "wholeEggs": 0,
+          "fish": true,
+          "legumes": false,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Mittwoch",
-      "calories": "ca. 2.000 kcal",
+      "id": "wednesday",
+      "label": {
+        "de": "Mittwoch",
+        "en": "Wednesday",
+        "it": "Mercoledì"
+      },
+      "calories": {
+        "de": "ca. 2.000 kcal",
+        "en": "about 2,000 kcal",
+        "it": "circa 2.000 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "Overnight Oats aus 300 g Skyr, 50 g Haferflocken, 150 g Beeren und etwas Wasser oder ungesüßter Milch."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "Overnight Oats aus 300 g Skyr, 50 g Haferflocken, 150 g Beeren und etwas Wasser oder ungesüßter Milch.",
+            "en": "Overnight oats with 300 g skyr, 50 g oats, 150 g berries and a little water or unsweetened milk.",
+            "it": "Overnight oats con 300 g di skyr, 50 g di fiocchi d’avena, 150 g di frutti di bosco e poca acqua o latte senza zucchero."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "Zweite Pollo-Riso-Bowl vom Montag."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "Zweite Pollo-Riso-Bowl vom Montag.",
+            "en": "Second chicken-and-rice bowl prepared on Monday.",
+            "it": "Seconda bowl di pollo e riso preparata lunedì."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "1 Apfel oder Birne und 15 g Mandeln."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "1 Apfel oder Birne und 15 g Mandeln.",
+            "en": "1 apple or pear and 15 g almonds.",
+            "it": "1 mela o pera e 15 g di mandorle."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "75 g Vollkornnudeln, 250 g passierte Tomaten, 200 g fettarmer körniger Frischkäse, 150 g Spinat und 5 g Parmesan."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "75 g Vollkornnudeln (ungekocht), 250 g passierte Tomaten, 200 g fettarmer körniger Frischkäse, 150 g Spinat und 5 g Parmesan.",
+            "en": "75 g whole-grain pasta (dry), 250 g passata, 200 g low-fat cottage cheese, 150 g spinach and 5 g Parmesan.",
+            "it": "75 g di pasta integrale (peso a crudo), 250 g di passata, 200 g di fiocchi di latte magri, 150 g di spinaci e 5 g di parmigiano."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Donnerstag",
-      "calories": "ca. 2.050 kcal",
+      "id": "thursday",
+      "label": {
+        "de": "Donnerstag",
+        "en": "Thursday",
+        "it": "Giovedì"
+      },
+      "calories": {
+        "de": "ca. 2.050 kcal",
+        "en": "about 2,050 kcal",
+        "it": "circa 2.050 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "300 g Skyr, 50 g Haferflocken, 1 kleine Banane und 10 g Walnüsse."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "300 g Skyr, 50 g Haferflocken, 1 kleine Banane und 10 g Walnüsse.",
+            "en": "300 g skyr, 50 g oats, 1 small banana and 10 g walnuts.",
+            "it": "300 g di skyr, 50 g di fiocchi d’avena, 1 banana piccola e 10 g di noci."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "65 g Vollkorn-Couscous, 150 g Kichererbsen, 40 g fettarmer Feta, Gurke, Tomaten, Petersilie und 5 g Olivenöl."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "65 g Vollkorn-Couscous (ungekocht), 150 g Kichererbsen, 40 g fettarmer Feta, Gurke, Tomaten, Petersilie und 5 g Olivenöl.",
+            "en": "65 g whole-grain couscous (dry), 150 g chickpeas, 40 g reduced-fat feta, cucumber, tomatoes, parsley and 5 g olive oil.",
+            "it": "65 g di cous cous integrale (peso a crudo), 150 g di ceci, 40 g di feta magra, cetriolo, pomodori, prezzemolo e 5 g di olio d’oliva."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "1 Portion Obst und 150 g fettarmer Naturjoghurt oder Skyr."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "1 Portion Obst und 150 g fettarmer Naturjoghurt oder Skyr.",
+            "en": "One portion of fruit and 150 g low-fat natural yoghurt or skyr.",
+            "it": "Una porzione di frutta e 150 g di yogurt naturale magro o skyr."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "Bohnensuppe aus 250 g weißen Bohnen, 250 g passierten Tomaten, Gemüse, 80 g Vollkornbrot und 5 g Olivenöl."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "Bohnensuppe aus 250 g weißen Bohnen, 250 g passierten Tomaten, Gemüse, 80 g Vollkornbrot und 5 g Olivenöl.",
+            "en": "Bean soup with 250 g white beans, 250 g passata, vegetables, 80 g whole-grain bread and 5 g olive oil.",
+            "it": "Zuppa di fagioli con 250 g di fagioli bianchi, 250 g di passata, verdure, 80 g di pane integrale e 5 g di olio d’oliva."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Freitag",
-      "calories": "ca. 2.050 kcal",
+      "id": "friday",
+      "label": {
+        "de": "Freitag",
+        "en": "Friday",
+        "it": "Venerdì"
+      },
+      "calories": {
+        "de": "ca. 2.050 kcal",
+        "en": "about 2,050 kcal",
+        "it": "circa 2.050 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "80 g Vollkornbrot, 200 g fettarmer körniger Frischkäse, Tomaten, Gurke, 1 Portion Obst und 10 g Nüsse."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "80 g Vollkornbrot, 200 g fettarmer körniger Frischkäse, Tomaten, Gurke, 1 Portion Obst und 10 g Nüsse.",
+            "en": "80 g whole-grain bread, 200 g low-fat cottage cheese, tomatoes, cucumber, one portion of fruit and 10 g nuts.",
+            "it": "80 g di pane integrale, 200 g di fiocchi di latte magri, pomodori, cetriolo, una porzione di frutta e 10 g di frutta secca."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "65 g Naturreis, 200 g Linsen, 300 g gegartes Gemüse, 5 g Olivenöl, Zitrone und Kräuter."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "65 g Naturreis (ungekocht), 200 g Linsen, 300 g gegartes Gemüse, 5 g Olivenöl, Zitrone und Kräuter.",
+            "en": "65 g brown rice (dry), 200 g lentils, 300 g cooked vegetables, 5 g olive oil, lemon and herbs.",
+            "it": "65 g di riso integrale (peso a crudo), 200 g di lenticchie, 300 g di verdure cotte, 5 g di olio d’oliva, limone ed erbe aromatiche."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "250 g Skyr und 150 g Beeren."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "250 g Skyr und 150 g Beeren.",
+            "en": "250 g skyr and 150 g berries.",
+            "it": "250 g di skyr e 150 g di frutti di bosco."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "200 g Kabeljau oder Seelachs, 300 g Kartoffeln, 250 g grüne Bohnen, Joghurt-Dip und 60 g Vollkornbrot."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "200 g Kabeljau oder Seelachs, 300 g Kartoffeln, 250 g grüne Bohnen, Joghurt-Dip und 60 g Vollkornbrot.",
+            "en": "200 g cod or pollock, 300 g potatoes, 250 g green beans, yoghurt dip and 60 g whole-grain bread.",
+            "it": "200 g di merluzzo o nasello, 300 g di patate, 250 g di fagiolini, salsa allo yogurt e 60 g di pane integrale."
+          },
+          "wholeEggs": 0,
+          "fish": true,
+          "legumes": false,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Samstag",
-      "calories": "ca. 2.050 kcal",
+      "id": "saturday",
+      "label": {
+        "de": "Samstag",
+        "en": "Saturday",
+        "it": "Sabato"
+      },
+      "calories": {
+        "de": "ca. 2.050 kcal",
+        "en": "about 2,050 kcal",
+        "it": "circa 2.050 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "80 g Vollkornbrot, 30 g Erdnussmus, 1 kleine Banane und 150 g Skyr."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "80 g Vollkornbrot, 30 g Erdnussmus, 1 kleine Banane und 150 g Skyr.",
+            "en": "80 g whole-grain bread, 30 g peanut butter, 1 small banana and 150 g skyr.",
+            "it": "80 g di pane integrale, 30 g di crema di arachidi, 1 banana piccola e 150 g di skyr."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "Kartoffelsalat aus 300 g Kartoffeln, 1 Ei, 100 g Cannellini-Bohnen, 200 g grünen Bohnen, Tomaten und 7 g Olivenöl."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "Kartoffelsalat aus 300 g Kartoffeln, 1 Ei, 100 g Cannellini-Bohnen, 200 g grünen Bohnen, Tomaten und 7 g Olivenöl.",
+            "en": "Potato salad with 300 g potatoes, 1 egg, 100 g cannellini beans, 200 g green beans, tomatoes and 7 g olive oil.",
+            "it": "Insalata di patate con 300 g di patate, 1 uovo, 100 g di cannellini, 200 g di fagiolini, pomodori e 7 g di olio d’oliva."
+          },
+          "wholeEggs": 1,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "200 g Skyr und 1 Portion Obst."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "200 g Skyr und 1 Portion Obst.",
+            "en": "200 g skyr and one portion of fruit.",
+            "it": "200 g di skyr e una porzione di frutta."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "160 g Kichererbsen, 300–400 g Ofengemüse, 60 g Vollkorn-Couscous, 7 g Olivenöl und 15 g Tahin-Zitronen-Soße."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "160 g Kichererbsen, 300–400 g Ofengemüse, 60 g Vollkorn-Couscous (ungekocht), 7 g Olivenöl und 15 g Tahin-Zitronen-Soße.",
+            "en": "160 g chickpeas, 300–400 g roasted vegetables, 60 g whole-grain couscous (dry), 7 g olive oil and 15 g tahini-lemon sauce.",
+            "it": "160 g di ceci, 300–400 g di verdure al forno, 60 g di cous cous integrale (peso a crudo), 7 g di olio d’oliva e 15 g di salsa tahina e limone."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         }
       ]
     },
     {
-      "day": "Sonntag",
-      "calories": "ca. 2.050 kcal",
+      "id": "sunday",
+      "label": {
+        "de": "Sonntag",
+        "en": "Sunday",
+        "it": "Domenica"
+      },
+      "calories": {
+        "de": "ca. 2.050 kcal",
+        "en": "about 2,050 kcal",
+        "it": "circa 2.050 kcal"
+      },
       "meals": [
         {
-          "name": "Frühstück",
-          "text": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse."
+          "id": "breakfast",
+          "label": {
+            "de": "Frühstück",
+            "en": "Breakfast",
+            "it": "Colazione"
+          },
+          "text": {
+            "de": "300 g Skyr, 50 g Haferflocken, 150 g Beeren und 15 g Walnüsse.",
+            "en": "300 g skyr, 50 g oats, 150 g berries and 15 g walnuts.",
+            "it": "300 g di skyr, 50 g di fiocchi d’avena, 150 g di frutti di bosco e 15 g di noci."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Mittag",
-          "text": "Pasta e ceci: 75 g Vollkornnudeln, 160 g Kichererbsen, 250 g passierte Tomaten, Spinat, Rosmarin, 5 g Parmesan und 5 g Olivenöl."
+          "id": "lunch",
+          "label": {
+            "de": "Mittag",
+            "en": "Lunch",
+            "it": "Pranzo"
+          },
+          "text": {
+            "de": "Pasta e ceci: 75 g Vollkornnudeln (ungekocht), 160 g Kichererbsen, 250 g passierte Tomaten, Spinat, Rosmarin, 5 g Parmesan und 5 g Olivenöl.",
+            "en": "Pasta e ceci: 75 g whole-grain pasta (dry), 160 g chickpeas, 250 g passata, spinach, rosemary, 5 g Parmesan and 5 g olive oil.",
+            "it": "Pasta e ceci: 75 g di pasta integrale (peso a crudo), 160 g di ceci, 250 g di passata, spinaci, rosmarino, 5 g di parmigiano e 5 g di olio d’oliva."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         },
         {
-          "name": "Snack",
-          "text": "1 Portion Obst und 15 g Mandeln."
+          "id": "snack",
+          "label": {
+            "de": "Snack",
+            "en": "Snack",
+            "it": "Spuntino"
+          },
+          "text": {
+            "de": "1 Portion Obst und 15 g Mandeln.",
+            "en": "One portion of fruit and 15 g almonds.",
+            "it": "Una porzione di frutta e 15 g di mandorle."
+          },
+          "wholeEggs": 0,
+          "fish": false,
+          "legumes": false,
+          "processedMeat": false
         },
         {
-          "name": "Abend",
-          "text": "Gemüsepfanne mit 1 Ei, 200 g fettarmem körnigem Frischkäse, 100 g weißen Bohnen, 80 g Vollkornbrot und 5 g Olivenöl."
+          "id": "dinner",
+          "label": {
+            "de": "Abend",
+            "en": "Dinner",
+            "it": "Cena"
+          },
+          "text": {
+            "de": "Gemüsepfanne mit 1 Ei, 200 g fettarmem körnigem Frischkäse, 100 g weißen Bohnen, 80 g Vollkornbrot und 5 g Olivenöl.",
+            "en": "Vegetable pan with 1 egg, 200 g low-fat cottage cheese, 100 g white beans, 80 g whole-grain bread and 5 g olive oil.",
+            "it": "Padellata di verdure con 1 uovo, 200 g di fiocchi di latte magri, 100 g di fagioli bianchi, 80 g di pane integrale e 5 g di olio d’oliva."
+          },
+          "wholeEggs": 1,
+          "fish": false,
+          "legumes": true,
+          "processedMeat": false
         }
       ]
     }
   ],
   "mealPrep": [
     {
-      "title": "Sonntag · etwa 60 Minuten",
+      "id": "sunday-prep",
+      "title": {
+        "de": "Sonntag · etwa 60 Minuten",
+        "en": "Sunday · about 60 minutes",
+        "it": "Domenica · circa 60 minuti"
+      },
       "steps": [
-        "320–350 g Hähnchen für zwei Portionen garen.",
-        "140 g Naturreis für Montag und Mittwoch kochen.",
-        "Etwa 1,5 kg rohes Gemüse auf einem großen Blech rösten.",
-        "Drei Skyr- oder Overnight-Oats-Gläser vorbereiten.",
-        "Joghurt-Zitronen-Dip anrühren.",
-        "Hülsenfrüchte abspülen und portionsweise lagern."
+        {
+          "de": "320–350 g Hähnchen für zwei Portionen garen.",
+          "en": "Cook 320–350 g chicken for two portions.",
+          "it": "Cuocere 320–350 g di pollo per due porzioni."
+        },
+        {
+          "de": "140 g Naturreis für Montag und Mittwoch kochen.",
+          "en": "Cook 140 g brown rice for Monday and Wednesday.",
+          "it": "Cuocere 140 g di riso integrale per lunedì e mercoledì."
+        },
+        {
+          "de": "Etwa 1,5 kg rohes Gemüse auf einem großen Blech rösten.",
+          "en": "Roast about 1.5 kg raw vegetables on a large tray.",
+          "it": "Cuocere al forno circa 1,5 kg di verdure crude su una teglia grande."
+        },
+        {
+          "de": "Drei Skyr- oder Overnight-Oats-Gläser vorbereiten.",
+          "en": "Prepare three skyr or overnight-oats jars.",
+          "it": "Preparare tre vasetti di skyr o overnight oats."
+        },
+        {
+          "de": "Joghurt-Zitronen-Dip anrühren.",
+          "en": "Mix the yoghurt-lemon dip.",
+          "it": "Preparare la salsa allo yogurt e limone."
+        },
+        {
+          "de": "Hülsenfrüchte abspülen und portionsweise lagern.",
+          "en": "Rinse the legumes and store them in portions.",
+          "it": "Sciacquare i legumi e conservarli in porzioni."
+        }
       ]
     },
     {
-      "title": "Mittwoch · etwa 20 Minuten",
+      "id": "midweek-prep",
+      "title": {
+        "de": "Mittwoch · etwa 20 Minuten",
+        "en": "Wednesday · about 20 minutes",
+        "it": "Mercoledì · circa 20 minuti"
+      },
       "steps": [
-        "Kartoffeln für Freitag und Samstag vorkochen.",
-        "Linsen-Reis-Bowl vorbereiten.",
-        "Skyr-Gläser für die zweite Wochenhälfte füllen.",
-        "Frischen Salat und Rucola nachkaufen."
+        {
+          "de": "Kartoffeln für Freitag und Samstag vorkochen.",
+          "en": "Pre-cook the potatoes for Friday and Saturday.",
+          "it": "Precuocere le patate per venerdì e sabato."
+        },
+        {
+          "de": "Linsen-Reis-Bowl vorbereiten.",
+          "en": "Prepare the lentil-and-rice bowl.",
+          "it": "Preparare la bowl di lenticchie e riso."
+        },
+        {
+          "de": "Skyr-Gläser für die zweite Wochenhälfte füllen.",
+          "en": "Fill the skyr jars for the second half of the week.",
+          "it": "Riempire i vasetti di skyr per la seconda metà della settimana."
+        },
+        {
+          "de": "Frischen Salat und Rucola nachkaufen.",
+          "en": "Buy fresh salad leaves and rocket.",
+          "it": "Comprare insalata fresca e rucola."
+        }
       ]
     }
   ],
   "shopping": [
     {
-      "category": "Milchprodukte & Eier",
+      "id": "dairy",
+      "category": {
+        "de": "Milchprodukte & Eier",
+        "en": "Dairy & eggs",
+        "it": "Latticini e uova"
+      },
       "items": [
-        "2,5–3 kg Skyr, möglichst 0,2 % Fett",
-        "500 g fettarmer Naturjoghurt",
-        "600 g fettarmer körniger Frischkäse",
-        "1 kleine Packung Mozzarella light",
-        "1 kleine Packung fettarmer Feta",
-        "1 kleine Packung Parmesan",
-        "2 Eier beziehungsweise kleinste Packung"
+        {
+          "id": "skyr",
+          "text": {
+            "de": "2,5–3 kg Skyr, möglichst 0,2 % Fett",
+            "en": "2.5–3 kg skyr, preferably 0.2% fat",
+            "it": "2,5–3 kg di skyr, preferibilmente con 0,2% di grassi"
+          }
+        },
+        {
+          "id": "yoghurt",
+          "text": {
+            "de": "500 g fettarmer Naturjoghurt",
+            "en": "500 g low-fat natural yoghurt",
+            "it": "500 g di yogurt naturale magro"
+          }
+        },
+        {
+          "id": "cottage-cheese",
+          "text": {
+            "de": "600 g fettarmer körniger Frischkäse",
+            "en": "600 g low-fat cottage cheese",
+            "it": "600 g di fiocchi di latte magri"
+          }
+        },
+        {
+          "id": "mozzarella",
+          "text": {
+            "de": "1 kleine Packung Mozzarella light",
+            "en": "1 small pack of light mozzarella",
+            "it": "1 confezione piccola di mozzarella light"
+          }
+        },
+        {
+          "id": "feta",
+          "text": {
+            "de": "1 kleine Packung fettarmer Feta",
+            "en": "1 small pack of reduced-fat feta",
+            "it": "1 confezione piccola di feta magra"
+          }
+        },
+        {
+          "id": "parmesan",
+          "text": {
+            "de": "1 kleine Packung Parmesan",
+            "en": "1 small pack of Parmesan",
+            "it": "1 confezione piccola di parmigiano"
+          }
+        },
+        {
+          "id": "eggs",
+          "text": {
+            "de": "2 Eier beziehungsweise kleinste Packung",
+            "en": "2 eggs or the smallest available pack",
+            "it": "2 uova oppure la confezione più piccola"
+          }
+        }
       ]
     },
     {
-      "category": "Fleisch & Fisch",
+      "id": "meat-fish",
+      "category": {
+        "de": "Fleisch & Fisch",
+        "en": "Meat & fish",
+        "it": "Carne e pesce"
+      },
       "items": [
-        "320–350 g Hähnchenbrust",
-        "180–200 g Lachs",
-        "200 g Kabeljau oder Seelachs",
-        "1 Dose Thunfisch im eigenen Saft"
+        {
+          "id": "chicken",
+          "text": {
+            "de": "320–350 g Hähnchenbrust",
+            "en": "320–350 g chicken breast",
+            "it": "320–350 g di petto di pollo"
+          }
+        },
+        {
+          "id": "salmon",
+          "text": {
+            "de": "180–200 g Lachs",
+            "en": "180–200 g salmon",
+            "it": "180–200 g di salmone"
+          }
+        },
+        {
+          "id": "white-fish",
+          "text": {
+            "de": "200 g Kabeljau oder Seelachs",
+            "en": "200 g cod or pollock",
+            "it": "200 g di merluzzo o nasello"
+          }
+        },
+        {
+          "id": "tuna",
+          "text": {
+            "de": "1 Dose Thunfisch im eigenen Saft",
+            "en": "1 tin of tuna in spring water",
+            "it": "1 scatoletta di tonno al naturale"
+          }
+        }
       ]
     },
     {
-      "category": "Hülsenfrüchte",
+      "id": "legumes",
+      "category": {
+        "de": "Hülsenfrüchte",
+        "en": "Legumes",
+        "it": "Legumi"
+      },
       "items": [
-        "3 Dosen Kichererbsen",
-        "2 Dosen weiße Bohnen oder Cannellini",
-        "1 Dose Linsen",
-        "1 Becher Hummus"
+        {
+          "id": "chickpeas",
+          "text": {
+            "de": "3 Dosen Kichererbsen",
+            "en": "3 tins of chickpeas",
+            "it": "3 scatole di ceci"
+          }
+        },
+        {
+          "id": "white-beans",
+          "text": {
+            "de": "2 Dosen weiße Bohnen oder Cannellini",
+            "en": "2 tins of white beans or cannellini",
+            "it": "2 scatole di fagioli bianchi o cannellini"
+          }
+        },
+        {
+          "id": "lentils",
+          "text": {
+            "de": "1 Dose Linsen",
+            "en": "1 tin of lentils",
+            "it": "1 scatola di lenticchie"
+          }
+        },
+        {
+          "id": "hummus",
+          "text": {
+            "de": "1 Becher Hummus",
+            "en": "1 tub of hummus",
+            "it": "1 confezione di hummus"
+          }
+        }
       ]
     },
     {
-      "category": "Getreide, Brot & Kartoffeln",
+      "id": "grains",
+      "category": {
+        "de": "Getreide, Brot & Kartoffeln",
+        "en": "Grains, bread & potatoes",
+        "it": "Cereali, pane e patate"
+      },
       "items": [
-        "500 g Haferflocken",
-        "500 g Vollkornnudeln",
-        "500 g Natur- oder Vollkornreis",
-        "250 g Vollkorn-Couscous",
-        "750 g Vollkornbrot",
-        "1 Packung Vollkorn-Wraps oder Piadine",
-        "1,5 kg Kartoffeln"
+        {
+          "id": "oats",
+          "text": {
+            "de": "500 g Haferflocken",
+            "en": "500 g oats",
+            "it": "500 g di fiocchi d’avena"
+          }
+        },
+        {
+          "id": "pasta",
+          "text": {
+            "de": "500 g Vollkornnudeln",
+            "en": "500 g whole-grain pasta",
+            "it": "500 g di pasta integrale"
+          }
+        },
+        {
+          "id": "rice",
+          "text": {
+            "de": "500 g Natur- oder Vollkornreis",
+            "en": "500 g brown or whole-grain rice",
+            "it": "500 g di riso integrale"
+          }
+        },
+        {
+          "id": "couscous",
+          "text": {
+            "de": "250 g Vollkorn-Couscous",
+            "en": "250 g whole-grain couscous",
+            "it": "250 g di cous cous integrale"
+          }
+        },
+        {
+          "id": "bread",
+          "text": {
+            "de": "750 g Vollkornbrot",
+            "en": "750 g whole-grain bread",
+            "it": "750 g di pane integrale"
+          }
+        },
+        {
+          "id": "wraps",
+          "text": {
+            "de": "1 Packung Vollkorn-Wraps oder Piadine",
+            "en": "1 pack of whole-grain wraps or piadine",
+            "it": "1 confezione di wrap o piadine integrali"
+          }
+        },
+        {
+          "id": "potatoes",
+          "text": {
+            "de": "1,5 kg Kartoffeln",
+            "en": "1.5 kg potatoes",
+            "it": "1,5 kg di patate"
+          }
+        }
       ]
     },
     {
-      "category": "Gemüse & Kräuter",
+      "id": "vegetables",
+      "category": {
+        "de": "Gemüse & Kräuter",
+        "en": "Vegetables & herbs",
+        "it": "Verdure ed erbe aromatiche"
+      },
       "items": [
-        "2 kg Tomaten und Cherrytomaten",
-        "5 Zucchini",
-        "5 Paprika",
-        "2 Gurken",
-        "500 g Brokkoli",
-        "750 g grüne Bohnen",
-        "750 g Spinat",
-        "3 Packungen Rucola oder Salat",
-        "4 Karotten",
-        "4 Zitronen",
-        "Petersilie, Basilikum und Rosmarin"
+        {
+          "id": "tomatoes",
+          "text": {
+            "de": "2 kg Tomaten und Cherrytomaten",
+            "en": "2 kg tomatoes and cherry tomatoes",
+            "it": "2 kg di pomodori e pomodorini"
+          }
+        },
+        {
+          "id": "courgettes",
+          "text": {
+            "de": "5 Zucchini",
+            "en": "5 courgettes",
+            "it": "5 zucchine"
+          }
+        },
+        {
+          "id": "peppers",
+          "text": {
+            "de": "5 Paprika",
+            "en": "5 peppers",
+            "it": "5 peperoni"
+          }
+        },
+        {
+          "id": "cucumbers",
+          "text": {
+            "de": "2 Gurken",
+            "en": "2 cucumbers",
+            "it": "2 cetrioli"
+          }
+        },
+        {
+          "id": "broccoli",
+          "text": {
+            "de": "500 g Brokkoli",
+            "en": "500 g broccoli",
+            "it": "500 g di broccoli"
+          }
+        },
+        {
+          "id": "green-beans",
+          "text": {
+            "de": "750 g grüne Bohnen",
+            "en": "750 g green beans",
+            "it": "750 g di fagiolini"
+          }
+        },
+        {
+          "id": "spinach",
+          "text": {
+            "de": "750 g Spinat",
+            "en": "750 g spinach",
+            "it": "750 g di spinaci"
+          }
+        },
+        {
+          "id": "salad",
+          "text": {
+            "de": "3 Packungen Rucola oder Salat",
+            "en": "3 packs of rocket or salad leaves",
+            "it": "3 confezioni di rucola o insalata"
+          }
+        },
+        {
+          "id": "carrots",
+          "text": {
+            "de": "4 Karotten",
+            "en": "4 carrots",
+            "it": "4 carote"
+          }
+        },
+        {
+          "id": "lemons",
+          "text": {
+            "de": "4 Zitronen",
+            "en": "4 lemons",
+            "it": "4 limoni"
+          }
+        },
+        {
+          "id": "herbs",
+          "text": {
+            "de": "Petersilie, Basilikum und Rosmarin",
+            "en": "Parsley, basil and rosemary",
+            "it": "Prezzemolo, basilico e rosmarino"
+          }
+        }
       ]
     },
     {
-      "category": "Obst & Vorrat",
+      "id": "fruit-pantry",
+      "category": {
+        "de": "Obst & Vorrat",
+        "en": "Fruit & pantry",
+        "it": "Frutta e dispensa"
+      },
       "items": [
-        "4 Bananen",
-        "5 Äpfel oder Birnen",
-        "2 weitere saisonale Früchte",
-        "1 kg tiefgekühlte Beeren",
-        "Olivenöl",
-        "200 g Walnüsse oder Mandeln",
-        "Erdnussmus aus 100 % Erdnüssen",
-        "Tahin",
-        "Oliven",
-        "4 Packungen passierte Tomaten",
-        "Senf, Essig und Gewürze"
+        {
+          "id": "bananas",
+          "text": {
+            "de": "4 Bananen",
+            "en": "4 bananas",
+            "it": "4 banane"
+          }
+        },
+        {
+          "id": "apples-pears",
+          "text": {
+            "de": "5 Äpfel oder Birnen",
+            "en": "5 apples or pears",
+            "it": "5 mele o pere"
+          }
+        },
+        {
+          "id": "seasonal-fruit",
+          "text": {
+            "de": "2 weitere saisonale Früchte",
+            "en": "2 additional seasonal fruits",
+            "it": "2 altri frutti di stagione"
+          }
+        },
+        {
+          "id": "berries",
+          "text": {
+            "de": "1 kg tiefgekühlte Beeren",
+            "en": "1 kg frozen berries",
+            "it": "1 kg di frutti di bosco surgelati"
+          }
+        },
+        {
+          "id": "olive-oil",
+          "text": {
+            "de": "Olivenöl",
+            "en": "Olive oil",
+            "it": "Olio d’oliva"
+          }
+        },
+        {
+          "id": "nuts",
+          "text": {
+            "de": "200 g Walnüsse oder Mandeln",
+            "en": "200 g walnuts or almonds",
+            "it": "200 g di noci o mandorle"
+          }
+        },
+        {
+          "id": "peanut-butter",
+          "text": {
+            "de": "Erdnussmus aus 100 % Erdnüssen",
+            "en": "Peanut butter made from 100% peanuts",
+            "it": "Crema di arachidi 100% arachidi"
+          }
+        },
+        {
+          "id": "tahini",
+          "text": {
+            "de": "Tahin",
+            "en": "Tahini",
+            "it": "Tahina"
+          }
+        },
+        {
+          "id": "olives",
+          "text": {
+            "de": "Oliven",
+            "en": "Olives",
+            "it": "Olive"
+          }
+        },
+        {
+          "id": "passata",
+          "text": {
+            "de": "4 Packungen passierte Tomaten",
+            "en": "4 packs of passata",
+            "it": "4 confezioni di passata"
+          }
+        },
+        {
+          "id": "condiments",
+          "text": {
+            "de": "Senf, Essig und Gewürze",
+            "en": "Mustard, vinegar and spices",
+            "it": "Senape, aceto e spezie"
+          }
+        }
       ]
     }
-  ]
+  ],
+  "medicalNote": {
+    "de": "Dieser Plan ersetzt keine ärztliche Beratung. Bei familiärer Vorbelastung und grenzwertigen Cholesterinwerten Blutwerte und Blutdruck regelmäßig ärztlich kontrollieren lassen.",
+    "en": "This plan does not replace medical advice. With a family history and borderline cholesterol, blood values and blood pressure should be checked regularly by a clinician.",
+    "it": "Questo piano non sostituisce il parere medico. In presenza di familiarità e valori di colesterolo al limite, è consigliabile controllare regolarmente gli esami del sangue e la pressione con il medico."
+  }
 }
