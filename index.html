@@ -34,18 +34,16 @@
 
   <main>
     <section id="installHint" class="install-hint hidden">
-      <div>
-        <strong id="installTitle"></strong>
-        <span id="installText"></span>
-      </div>
+      <div><strong id="installTitle"></strong><span id="installText"></span></div>
       <button id="closeInstallHint" type="button">OK</button>
     </section>
 
     <section id="summary" class="summary"></section>
 
-    <nav class="tabs" aria-label="Sections">
+    <nav class="tabs tabs-five" aria-label="Sections">
       <button class="tab active" data-target="planView" id="tabPlan"></button>
       <button class="tab" data-target="shoppingView" id="tabShopping"></button>
+      <button class="tab" data-target="offersView" id="tabOffers"></button>
       <button class="tab" data-target="prepView" id="tabPrep"></button>
       <button class="tab" data-target="notesView" id="tabNotes"></button>
     </nav>
@@ -58,6 +56,32 @@
         <button id="resetShopping" class="secondary"></button>
       </div>
       <div id="shopping" class="shopping-grid"></div>
+    </section>
+
+    <section id="offersView" class="view">
+      <div class="section-bar offer-heading">
+        <div><h2 id="offersTitle"></h2><p id="offersSubtitle"></p></div>
+      </div>
+
+      <div class="offer-controls">
+        <label>
+          <span id="offerRegionLabel"></span>
+          <select id="offerCountry">
+            <option value="DE">Deutschland · Burscheid</option>
+            <option value="IT">Italia · Vidigulfo</option>
+          </select>
+        </label>
+        <label class="switch-row">
+          <input id="includeLoyalty" type="checkbox" checked>
+          <span><strong id="loyaltyTitle"></strong><small id="loyaltyHelp"></small></span>
+        </label>
+      </div>
+
+      <div id="offerStatus" class="offer-status"></div>
+      <div id="offerSummary" class="offer-summary"></div>
+      <div id="offerStores" class="offer-stores"></div>
+      <div id="offerItems" class="offer-items"></div>
+      <div id="offerDisclaimer" class="offer-disclaimer"></div>
     </section>
 
     <section id="prepView" class="view">

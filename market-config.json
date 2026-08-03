@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "maxStores": 6,
+  "loyaltyModes": [
+    "withLoyalty",
+    "withoutLoyalty"
+  ],
+  "markets": {
+    "DE": {
+      "country": "DE",
+      "postalCode": "51399",
+      "city": "Burscheid",
+      "region": "North Rhine-Westphalia",
+      "timezone": "Europe/Berlin",
+      "radiusKm": 15,
+      "allRetailers": true
+    },
+    "IT": {
+      "country": "IT",
+      "postalCode": "27018",
+      "city": "Vidigulfo",
+      "region": "Lombardy",
+      "timezone": "Europe/Rome",
+      "radiusKm": 15,
+      "allRetailers": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "markets": {
+    "DE": {
+      "country": "DE",
+      "locationLabel": "51399 Burscheid",
+      "radiusKm": 15,
+      "currency": "EUR",
+      "validFrom": null,
+      "validTo": null,
+      "searchedRetailers": [],
+      "withLoyalty": null,
+      "withoutLoyalty": null,
+      "statusText": {
+        "de": "Noch keine Preisdaten vorhanden. Starte den GitHub-Workflow einmal manuell.",
+        "en": "No price data is available yet. Run the GitHub workflow once manually.",
+        "it": "I dati dei prezzi non sono ancora disponibili. Avvia una volta manualmente il workflow GitHub."
+      }
+    },
+    "IT": {
+      "country": "IT",
+      "locationLabel": "27018 Vidigulfo",
+      "radiusKm": 15,
+      "currency": "EUR",
+      "validFrom": null,
+      "validTo": null,
+      "searchedRetailers": [],
+      "withLoyalty": null,
+      "withoutLoyalty": null,
+      "statusText": {
+        "de": "Noch keine Preisdaten vorhanden. Starte den GitHub-Workflow einmal manuell.",
+        "en": "No price data is available yet. Run the GitHub workflow once manually.",
+        "it": "I dati dei prezzi non sono ancora disponibili. Avvia una volta manualmente il workflow GitHub."
+      }
+    }
+  }
+}
